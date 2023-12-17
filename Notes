@@ -13,6 +13,9 @@ Don't panic if you took more than an hour just to solve one questions.
 Answers are case sensitive.
 Read the question carefully before attempting.
 Read the objective of your challenge on a layman terms
+RECON AND ENUMERATION ARE THE KEY!!!!!
+GATHER AS MUCH AS DETAILS!!!!!
+GOOGLE IS YOU BEST BEST BUDDY!!!!!
 
 Tools
   parrot box:
@@ -71,6 +74,10 @@ nmap -p- -sC -sV -O -A -T4 -oA nmapOutputfile 10.10.X.X
 
 https://631123540-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTnYLydS0JgZzHeOY4n38%2Fuploads%2FnfCUKi6arZHAFyiIIaZF%2Fnmap_cheet_sheet_v7.pdf?alt=media&token=18bec52d-6b10-4686-970b-579d563021a7
 
+TCP: nmap -A -T4 -p- <IP address in CIDR notation> -oN nmap.txt
+UDP: nmap -sU <IP in CIDR Notation> -oN udp.txt
+
+sqlmap: sqlmap -h | grep “dump”
 
 LINKS:
 https://book.thegurusec.com/certifications/certified-ethical-hacker-practical
