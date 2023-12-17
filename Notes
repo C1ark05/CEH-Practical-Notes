@@ -6,11 +6,13 @@ Test Delivery: Online and at your cosy place
 Passing score: 70% (14 out of 20 challenges)
 Test duration: 6 Hours ( with 15 minutes of break )
 
+Reminder:
 PRAY before starting.
 Always be relaxed. Never fret when you don't get an answer, it will come around later.
 Don't panic if you took more than an hour just to solve one questions.
 Answers are case sensitive.
 Read the question carefully before attempting.
+Read the objective of your challenge on a layman terms
 
 Tools
   parrot box:
@@ -27,6 +29,7 @@ Tools
     Nessus
 
   win box:
+    Zenmap-nmap of windows
     wireshark
     hashcalc
     veracrypt
@@ -41,7 +44,7 @@ Tools
 
 Use netdiscover to check for active machines.
 Use NMAP to discover the ports, ports wil lhelp you determine what kind of server it is.
-Use bruteforce like Hydra whne you want to know login details.
+Use bruteforce like Hydra / Medusa whne you want to know login details.
 USE SQLMap when you want to get detaiuls of users from database.
 Use bruteforce like WPScan when there is a Wordpress. 
 Use Cryptool for decoding .hex file.
@@ -53,3 +56,18 @@ Use hashes.com to crack hash.
 Use opentego for image/snow for file to find secret hidden in the image/file.
 Use ADB to find secret file in android.
 Use covert tcp to send data to antoher machiner(firewall blocked).
+
+
+nmap:
+nmap -p- -sC -sV -O -A -T4 -oA nmapOutputfile 10.10.X.X
+
+    • -p- -> Scans all the ports from 0 to 65535 available on the IP
+    • -sC -> Runs default scripts
+    • -sV -> version enumeration or service version
+    • -O  -> OS enumeration
+    • -A  -> Enumerate all the stuff as much as it can
+    • -T4 -> fast as time 4 (default is 3)
+    • -oA -> store the output on 3 types of format(nmap, gnmap, xml)
+
+LINKS:
+https://book.thegurusec.com/certifications/certified-ethical-hacker-practical
