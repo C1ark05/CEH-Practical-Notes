@@ -69,5 +69,8 @@ nmap -p- -sC -sV -O -A -T4 -oA nmapOutputfile 10.10.X.X
     • -T4 -> fast as time 4 (default is 3)
     • -oA -> store the output on 3 types of format(nmap, gnmap, xml)
 
+https://631123540-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTnYLydS0JgZzHeOY4n38%2Fuploads%2FnfCUKi6arZHAFyiIIaZF%2Fnmap_cheet_sheet_v7.pdf?alt=media&token=18bec52d-6b10-4686-970b-579d563021a7
+
+
 LINKS:
 https://book.thegurusec.com/certifications/certified-ethical-hacker-practical
