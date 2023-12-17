@@ -1,0 +1,55 @@
+CEH Practical Exam Information:
+Exam Name: Certified Ethical Hacker (Practical)
+Number of Challenges: 20
+Exam Infrastructure: iLabs (browser-based)
+Test Delivery: Online and at your cosy place
+Passing score: 70% (14 out of 20 challenges)
+Test duration: 6 Hours ( with 15 minutes of break )
+
+PRAY before starting.
+Always be relaxed. Never fret when you don't get an answer, it will come around later.
+Don't panic if you took more than an hour just to solve one questions.
+Answers are case sensitive.
+Read the question carefully before attempting.
+
+Tools
+  parrot box:
+    net discover
+    NMAP
+    Hydra
+    John the ripper
+    wpscan
+    sqlmap
+    ADB
+    metasploit **
+    Dirbuster/gobuster/wpscan 
+    Nikto 
+    Nessus
+
+  win box:
+    wireshark
+    hashcalc
+    veracrypt
+    BCTextEncoder
+    Snow
+    OpenStego
+    phonesploit **
+    vmssploit *****
+    meta/vmsfs*****
+    burpsuite 
+
+
+Use netdiscover to check for active machines.
+Use NMAP to discover the ports, ports wil lhelp you determine what kind of server it is.
+Use bruteforce like Hydra whne you want to know login details.
+USE SQLMap when you want to get detaiuls of users from database.
+Use bruteforce like WPScan when there is a Wordpress. 
+Use Cryptool for decoding .hex file.
+Use Wireshark to check PCAP files to check DDos Attacks.
+Use BCTextEncoder when decoding text.
+Use Hashcalc to calculate hash like SHA1.
+Use Veracrypt to decrypt hidden voulme and find secret file.
+Use hashes.com to crack hash.
+Use opentego for image/snow for file to find secret hidden in the image/file.
+Use ADB to find secret file in android.
+Use covert tcp to send data to antoher machiner(firewall blocked).
