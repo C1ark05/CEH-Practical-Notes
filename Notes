@@ -89,4 +89,102 @@ https://adithyanak.gitbook.io/ceh-practical/
 https://book.thegurusec.com/certifications/certified-ethical-hacker-practical
 https://runmodule.com/2020/12/13/tools-for-ceh-practical/
 
+===========================
+-basics of networking
+--protocols
+--ports and services
+--ip addresses and CIDR
+--subnetting
+-basics of cryptography
+--encryption and decryption
+--encoding and decoding
+
+-network scanning
+-enumeration
+-service exploitation
+-hacking web application
+
+-traffic sniffing
+-denial of service
+-steganography
+-cryptography
+
+tools:
+nmap
+metasploit
+wireshark
+burpsuite
+veracrypt
+cryptool
+bctextencoder
+android debugging bridge
+
+
+nmap -sC -sV  -p- -A -v -O -T4 <IP> 
+
+
+tools to enumerate snmp:
+nmap
+snmp-check
+metasploit
+
+
+
+metapsloit:
+msfconsole
+search <service>
+use <path of tehe exsploit>
+show options
+set RHOST <target ip>
+show options
+exploit
+
+
+xfreerdp /u:<username> /p:<password> /v:<ipaddress>:<port>
+
+
+tcp.flags.syn==1
+
+follow tcp strea or http stream
+
+
+-steganography tools:
+snow - text
+openstego - image
+covert tcp - tcp/ip headers
+
+SNOW.EXE -C -m "<message>" -p "<password>" <original filename> <outputfile name>
+SNOW.EXE -C -p "<password>" <file to show hidden secret>
+
+
+covert_tcp.c secret.txt
+cc -o covert_tcp covert_tcp.c
+./covert_tcp -source <source ip> -dest <dest ip> -soruce_port <source port> -dest_port <dest port> -file <file.txt>
+
+coverttcp.c receive.txt
+cc -o covert_tcp covert_tcp.c
+./covert_tcp -source <source ip> -soruce_port <source port> -server- -file <file.txt>
+
+
+cryptoraphy tools:
+hashmyfiles - calculate and compare hash files
+cryptool - encrypt/decrypt  hex data/ manipulate key length
+BctextEncoder - encode/decode text in file .hex
+CryptoForge - encrypt/decrpyt files
+Veracrypt - hiding and encrypt  disk partitions
+
+
+hacking web:
+SQLi
+XSS
+
+web hackin tools:
+SQLMAP - find SQL vuln
+Wpscan - scan/find isses in wordpress websites
+ADB - connect androdi devices to pc and  binary analysis
+Burpsuite -  analys and maniplate web traffic
+
+sqlmap  --url <urls --dbs>
+
+
 
